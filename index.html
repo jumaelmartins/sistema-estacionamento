@@ -16,19 +16,44 @@
         <section class="parking">
           <form class="parking__form" class="form" action="post">
             <fieldset class="parking__form__container">
-              <input class="parking__form__input-name" type="text" name="placa" id="nome" placeholder="Digite o Nome ..." autocomplete="disabled">
-              <input class="parking__form__input-licence-plate" type="text" name="nome" id="placa" placeholder="Digite a Placa ..." autocomplete="disabled">
+              <input class="parking__form__input" type="text" name="placa" id="nome" placeholder="Digite o Nome ..." autocomplete="disabled">
+              <input class="parking__form__input" type="text" name="nome" id="placa" placeholder="Digite a Placa ..." autocomplete="disabled">
             </fieldset>
-            <button class="parking__form__submit-button" type="submit">Cadastrar</button>
+            <button class="parking__form__submit-button" type="submit">
+              <span>
+                <img src="/src/assets/images/plus-circle.svg" alt="plus-icon">
+              </span>
+              Cadastrar
+            </button>
           </form>
 
           <table class="parking__table">
             <thead class="parking__table__header">
               <tr class="parking__table__header_container">
-                <th class="parking__table__header__title">Nome</th>
-                <th class="parking__table__header__title">Placa</th>
-                <th class="parking__table__header__title">Tempo</th>
-                <th class="parking__table__header__title">Ações</th>
+                <th class="parking__table__header__title">
+                  <span>
+                    <img src="/src/assets/images/user.svg" alt="plus-icon">
+                  </span>
+                  Nome
+                </th>
+                <th class="parking__table__header__title">
+                  <span>
+                    <img src="/src/assets/images/car-svgrepo-com.svg" alt="plus-icon">
+                  </span>
+                  Placa
+                </th>
+                <th class="parking__table__header__title">
+                  <span>
+                    <img src="/src/assets/images/time-svgrepo-com.svg" alt="plus-icon">
+                  </span>
+                  Tempo
+                </th>
+                <th class="parking__table__header__title">
+                  <span>
+                    <img src="/src/assets/images/minus-circle.svg" alt="plus-icon">
+                  </span>
+                  Ações
+                </th>
               </tr>
             </thead>
             <tbody class="parking__table__content">

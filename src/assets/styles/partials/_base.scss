@@ -1,0 +1,49 @@
+@use "./variables";
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: "Rubik", sans-serif;
+}
+
+html {
+  font-size: 67.5%;
+}
+
+main {
+  @include variables.flex(row, nowrap, center, center, "");
+  @include variables.size(100vh, 60%, "", "", "", "");
+  margin: auto;
+
+}
+
+main > section {
+    @include variables.flex(column, nowrap, "", "", 1rem);
+    width: 100%;
+    background: variables.$secundary;
+}
+
+.parking__header {
+    @include variables.flex(row, "", center, center, "");
+    position: relative;
+    padding: 3rem;
+    background: variables.$primary;
+    color: white;
+    border-radius: 2.2rem;
+    font-size: 1.6rem;
+
+    ::after {
+        content: "";
+        @include variables.position(absolute, "", 0, 0, 0);
+        border-top: 1px solid white;
+        height: 1.8rem;
+        background: variables.$primary;
+    }
+}
+
+.parking {
+  @include variables.flex(column, nowrap, "", "", 2rem); 
+  padding: 1rem 0;
+}

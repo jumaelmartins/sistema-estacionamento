@@ -1,0 +1,28 @@
+@use "./variables";
+
+
+.parking__table{
+    width: 80%;
+    margin: 0 auto;
+    background: variables.$thirdy;
+}
+
+.parking__table__header {
+    background: variables.$primary;
+    color: white;
+    height: 2.5rem;
+}
+
+th {
+    position: relative;
+
+    span {
+        @include variables.position(absolute, "", .5rem, .3rem, "");
+        display: flex;
+        width: 2rem;
+        height: 2rem;
+        img {
+            max-width: 100%;
+        }
+    }
+}

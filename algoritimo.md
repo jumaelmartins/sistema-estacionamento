@@ -15,7 +15,7 @@
 - [X] - Criar Repositorio / Organizar Diretorio
 - [X] - Fazer Primeirio Commit
 - [X] - Criar Estrutura Base HTML
-- [] - Estilizar a Pagina seguindo o design do Figma
+- [X] - Estilizar a Pagina seguindo o design do Figma
 - [] - Deixar Pagina Responsiva
 
 #### Etapa 2

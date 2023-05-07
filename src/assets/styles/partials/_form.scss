@@ -1,0 +1,46 @@
+@use "./variables";
+
+.parking__form {
+    @include variables.flex("","", center, center, 1rem);
+    padding: 2rem 1rem;
+    width: 80%;
+    margin: 0 auto;
+    background: variables.$thirdy;
+}
+
+.parking__form__container {
+    @include variables.flex("","", space-between, center, 1rem);
+    width: 75%;
+}
+
+.parking__form__input {
+    padding: 1rem;
+    width: 100%;
+
+    &:focus {
+        outline: 1px solid variables.$primary;
+    }
+}
+
+.parking__form__submit-button {
+    background: variables.$primary;
+    color: white;
+    padding: 1rem;
+    cursor: pointer;
+    width: 25%;
+    &:hover {
+        opacity: .7;
+    }
+    position: relative;
+
+    span {
+        @include variables.position(absolute, "", .8rem, .8rem, "");
+        display: flex;
+        width: 2rem;
+        height: 2rem;
+        img {
+            max-width: 100%;
+        }
+    }
+
+}
