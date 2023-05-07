@@ -8,6 +8,34 @@
     <title>Sistema-Estacionamento</title>
   </head>
   <body>
-    <h1>Sistema de Estacionamento</h1>
+    <main>
+      <section>
+        <header class="parking__header">
+          <h1>Sistema de Estacionamento</h1>
+        </header>
+        <section class="parking">
+          <form class="parking__form" class="form" action="post">
+            <fieldset class="parking__form__container">
+              <input class="parking__form__input-name" type="text" name="placa" id="nome" placeholder="Digite o Nome ..." autocomplete="disabled">
+              <input class="parking__form__input-licence-plate" type="text" name="nome" id="placa" placeholder="Digite a Placa ..." autocomplete="disabled">
+            </fieldset>
+            <button class="parking__form__submit-button" type="submit">Cadastrar</button>
+          </form>
+
+          <table class="parking__table">
+            <thead class="parking__table__header">
+              <tr class="parking__table__header_container">
+                <th class="parking__table__header__title">Nome</th>
+                <th class="parking__table__header__title">Placa</th>
+                <th class="parking__table__header__title">Tempo</th>
+                <th class="parking__table__header__title">Ações</th>
+              </tr>
+            </thead>
+            <tbody class="parking__table__content">
+            </tbody>
+          </table>
+        </section>
+      </section>
+    </main>
   </body>
 </html>
