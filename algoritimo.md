@@ -20,9 +20,9 @@
 
 #### Etapa 2
 
-- [] -
-- [] -
-- [] -
+- [X] - Capturar inputs
+- [X] - Armazenar Dados em Uma Variavel
+- [X] - Exibir Dados no HTML
 - [] - 
 - [] -
 - [] -
