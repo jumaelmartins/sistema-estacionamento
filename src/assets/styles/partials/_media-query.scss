@@ -3,10 +3,11 @@
 @media screen and (max-width: 768px) {
     main {
         width: 100%;
+        margin: auto;
     }
 
     main > section {
-        min-height: 100vh;
+        height: 100vh;
     }
 
     .parking__header {

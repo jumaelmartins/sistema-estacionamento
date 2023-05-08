@@ -14,14 +14,15 @@ html {
 
 main {
   @include variables.flex(row, nowrap, center, center, "");
-  @include variables.size(100vh, 60%, "", "", "", "");
-  margin: auto;
+  @include variables.size("", 60%, "", "", "", "");
+  margin: 20rem auto;
 
 }
 
 main > section {
     @include variables.flex(column, nowrap, "", "", 1rem);
     width: 100%;
+    max-height: 100%;
     background: variables.$secundary;
     border-radius: 2.2rem;
 }
@@ -47,4 +48,5 @@ main > section {
 .parking {
   @include variables.flex(column, nowrap, "", "", 2rem); 
   padding: 1rem 0;
+  max-height: 100%;
 }
