@@ -1,0 +1,54 @@
+@use "./variables";
+
+@media screen and (max-width: 768px) {
+    main {
+        width: 100%;
+    }
+
+    main > section {
+        min-height: 100vh;
+    }
+
+    .parking__header {
+        border-radius: 0;
+        text-align: center;
+    }
+
+    .parking__form {
+        flex-flow: column nowrap;
+    }
+
+    .parking__form__container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .parking__form__submit-button {
+        width: 100%;
+    }
+
+    th {
+        span {
+            @include variables.size(1.6rem, 1.6rem, "", "", "", "");
+            right: 0.5rem;           
+        }
+    }
+}
+
+@media screen and (max-width: 376px) {
+    th {
+        span {
+            @include variables.size(1rem, 1rem, "", "", "", "");
+            right: 0.1rem;
+        }
+    }   
+}
+
+@media screen and (max-width: 319px) {
+    th {
+        span {
+            @include variables.size(.8rem, .8rem, "", "", "", "");
+            @include variables.position(absolute, "", 0.2rem, 0.1rem, "")
+        }
+    }   
+}

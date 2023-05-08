@@ -16,7 +16,7 @@
 - [X] - Fazer Primeirio Commit
 - [X] - Criar Estrutura Base HTML
 - [X] - Estilizar a Pagina seguindo o design do Figma
-- [] - Deixar Pagina Responsiva
+- [X] - Deixar Pagina Responsiva
 
 #### Etapa 2
 

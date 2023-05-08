@@ -23,6 +23,7 @@ main > section {
     @include variables.flex(column, nowrap, "", "", 1rem);
     width: 100%;
     background: variables.$secundary;
+    border-radius: 2.2rem;
 }
 
 .parking__header {
