@@ -23,7 +23,7 @@
 - [X] - Capturar inputs
 - [X] - Armazenar Dados em Uma Variavel
 - [X] - Exibir Dados no HTML
-- [] - 
-- [] -
+- [X] - Salvar Dados em Local Storage
+- [X] - Carregar Dados Do Local Storage
 - [] -
 - [] -
