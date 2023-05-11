@@ -25,5 +25,5 @@
 - [X] - Exibir Dados no HTML
 - [X] - Salvar Dados em Local Storage
 - [X] - Carregar Dados Do Local Storage
-- [] -
-- [] -
+- [X] - Validação no Form
+- [X] - Função de Remover Items
