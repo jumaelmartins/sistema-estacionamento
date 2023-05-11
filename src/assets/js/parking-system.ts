@@ -35,7 +35,9 @@ function addVehicle(vehicle: Vehicle, saving?: boolean) {
   const userName = document.createElement("td");
   const licence = document.createElement("td");
   const entry = document.createElement("td");
-  const button = document.createElement("td");
+  const action = document.createElement("td");
+  const button = document.createElement("button");
+  action.appendChild(button);
 
   userName.innerText = vehicle.userName;
   licence.innerText = vehicle.licence;
@@ -47,7 +49,7 @@ function addVehicle(vehicle: Vehicle, saving?: boolean) {
   row.appendChild(userName);
   row.appendChild(licence);
   row.appendChild(entry);
-  row.appendChild(button);
+  row.appendChild(action);
 
   row.querySelector(".delete")?.addEventListener("click", function () {
     remove(this.dataset.licence);

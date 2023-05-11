@@ -50,3 +50,16 @@ main > section {
   padding: 1rem 0;
   max-height: 100%;
 }
+
+.delete {
+  background: red;
+  border-radius: 2.2rem;
+  padding: .5rem 2rem;
+  cursor: pointer;
+  transition: 1s;
+
+  &:hover {
+    opacity: .7;
+    color: white;
+  }
+}
